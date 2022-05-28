@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sst| by harihar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	 <link rel="icon" type="image/x-icon" href="icon.ico">
+<link rel="shortcuticon" type="image/x-icon" href="icon.ico">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body onload="myFunction()">
+    <div id="loading">
+	<!-- partial:index.partial.html -->
+<div class="loader">
+  <div class="inner one"></div>
+  <div class="inner two"></div>
+  <div class="inner three"></div>
+</div>
+<!-- partial -->
+  </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo" style="  font-family:'Ubuntu', sans-serif; font-size:28px;">Harihar.ga</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    <section>
+	<center><div class="icon"></div></center>
+	<center><h1 style="color:#fff; font-family:'Quicksand', sans-serif;">The Ring of Fire</h1></center>
+	<center><div class="para">
+	<p>The world's most active volcanoes lie along what's called the Ring of Fire.</p>
+	<p>It's also where most earthquakes happen as tectonic plates push against each other, causing tremors.</p>
+	<p>The "ring" stretches along a 25,000-mile (40,000-kilometer) arc from the boundary of the Pacific Plate, to smaller plates such as the Philippine Sea plate, to the Cocos and Nazca Plates that line the edge of the Pacific Ocean.</p><img style="height:100px; width:200px; border:5px solid aqua; margin:10px;"src="image/map.jpg">
+	<p>People most at risk from volcanic eruptions and earthquakes live in countries that lie along the Ring of Fire, including Chile, Japan, the US west coast, and other island nations including the Solomon Islands to the western seaboard of North and South Americas.</p>
+	<h1>How Ring of fire Formed.</h1>
+	<p>Tectonic plates are massive slabs of the Earth's crust. These move constantly above the mantle -- a layer of solid and molten rock below the Earth's crust.</p><img style="height:100px; width:200px; border:5px solid aqua; margin:10px;"src="image/water1.jpg">
+	<p>The Ring of Fire was formed as oceanic plates slid under continental plates.</p>
+	<p>Volcanoes along the Ring of Fire are formed when one plate is shoved under another into the mantle -- a solid body of rock between the Earth's crust and the molten iron core -- through a process called subduction.</p>
+	<p>Large earthquakes -- which risk triggering tsunamis -- also occur in subduction zones.</p>
+	
+	<h1>Active Volcanoes in the Ring of Fire</h1>
+       <p>Mount Ruapehu is part of the Taupo Volcanic Arc, where the dense Pacific Plate is subducting beneath the Australian Plate. Krakatau, perhaps better known as Krakatoa, is an island volcano in Indonesia. Krakatoa erupts less often than Mount Ruapehu, but much more spectacularly.</p>
+    <p>The Ring of Fire contains approximately 850–1,000 volcanoes that have been active during the last 11,700 years (about two-thirds of the world's total).</p>
+	<img style="height:100px; width:200px; border:5px solid aqua; margin:10px;"src="image/water2.jpg">
+	<button onclick="down()"style="border:0; height:50px; width:200px; border-radius:5px; background:crimson; color:white;">Click for download all images</button>
+	</div></center>
+	</section>
+<script>
+
+// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none'
+		};
+function down(){
+        let download_href = "image/images.zip"; //enter the downlodable file link here
+        window.location.href = download_href;
+        manualDownloadLink.href = download_href;
+}
+</script>
+  </body>
+</html>
