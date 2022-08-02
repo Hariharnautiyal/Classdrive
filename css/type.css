@@ -1,0 +1,39 @@
+.type {
+  color:#FFF;
+  font-size: 15px;
+  position: relative;
+  font-family:'Phantom Fingers';
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom:1em;
+  margin-top:1em;
+  background-color:#111;
+
+}
+
+.type::before,
+.type::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    background-color:#111;
+
+}
+
+.type::before {
+  background:#111;
+  -webkit-animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+          animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.type::after {
+  width: 0.125em;
+  background: red;
+  -webkit-animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
+          animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
