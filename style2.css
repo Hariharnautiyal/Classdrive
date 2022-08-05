@@ -473,7 +473,7 @@ hr{
 	inset 0px 0px 50px 15px rgba(255, 49, 49, 0.3);
         }
 .rotating{
-	 animation: fadeInAnimation5 2s infinite ;
+	 animation: fadeInAnimation5 linear 2s infinite ;
 	 
 	 position:absolute;
 	 border-radius:100%;
